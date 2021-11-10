@@ -1,0 +1,79 @@
+
+/* PRODUCTOS */
+.productos__card{
+    width: 100%;
+    padding: 1.3rem;
+    @include flexboxProductos (row, wrap, center);
+
+    .selectTalle{
+        width: auto;
+    }
+
+    .productos__card__info{
+        text-align: center;
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    img{
+        width: 350px;
+        height: auto;
+        border-radius: 3%;
+    }
+}
+
+.empty{
+    background-color: #C400FA;
+    color: map-get($map: $colores-base, $key: blanco);
+}
+
+.insegurx{
+    background-color:#FFE100;
+    color: map-get($map: $colores-base, $key: negro);
+}
+
+.terapia{
+    background-color: #D40068;
+    color: map-get($map: $colores-base, $key: blanco);
+}
+
+.policia{
+    background-color: #2770F5;
+    color: map-get($map: $colores-base, $key: negro);
+}
+
+
+@media (min-width: 1024px){
+     .productos__card{
+        padding: 1.3rem;
+        @include flexbox (row, wrap, center, center);
+        .productos__card__info{
+            flex-grow: 1;
+            text-align: center;
+        }
+        img{
+            width: 250px;
+            height: auto;
+            border-radius: 3%;
+            justify-self: center;
+        }
+    }
+    .insegurx .terapia{
+        flex-direction: row-reverse;
+    }
+
+    .productos__card__info{
+        flex-grow: 1;
+        
+    }
+    .insegurx{
+        flex-direction: row-reverse;
+    }
+    .policia{
+        flex-direction: row-reverse;
+    }
+
+
+}

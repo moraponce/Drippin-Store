@@ -1,0 +1,37 @@
+@import 'variables';
+@import 'productos';
+@import 'nosotros';
+
+body{
+    overflow-x: hidden;
+}
+
+footer{
+    overflow: hidden;
+    section{
+        background-color: $color-secundario;
+        padding: 2rem;
+    }
+    .fa-instagram{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,29,52,1) 20%, rgba(121,9,94,1) 74%, rgba(15,47,62,1) 100%);
+        color: map-get($map: $colores-base, $key: blanco);
+        position: fixed;
+        bottom: 0%;
+        border-radius: 48%;
+    }
+    .fa-instagram:hover{
+        transform:scale(1.1);
+    }
+    .firma{
+        color: map-get($map: $colores-base, $key: gris);
+        text-align: right;
+    }
+    .firma:hover{
+        color: map-get($map: $colores-base, $key: blanco);
+    }
+}
+
