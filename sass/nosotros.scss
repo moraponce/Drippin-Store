@@ -1,16 +1,23 @@
 
-
 .sobreNosotros__p{
     background-color: map-get($map: $colores-base, $key: azul);
     color: map-get($map: $colores-base, $key: blanco);
     border: solid 2px $color-principal;
     margin: 0.5rem;
     padding: 0.5rem;
+    text-align: center;
+}
+
+.sobreNosotros__p2{
+    padding: 10px;
+    margin: 0%;
+    text-align: right;
 }
 
 .sobreNosotros__img{
-    width: 500px;
+    width: 400px;
     height: auto;
+    padding-left: 0%;
 } 
 
 
@@ -18,11 +25,8 @@
     .drippinStore{
         font-size: 20px;
     }
-    .sobreNosotros1{
+     .sobreNosotros1{
         width: 250px;
         height: auto;
-    }
-    .sobreNosotros{
-        text-align: center;
     }
 }

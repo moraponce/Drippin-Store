@@ -64,20 +64,25 @@
   color: #FFF;
   border: solid 2px #1D0A1F;
   margin: 0.5rem;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  text-align: center; }
+
+.sobreNosotros__p2 {
+  padding: 10px;
+  margin: 0%;
+  text-align: right; }
 
 .sobreNosotros__img {
-  width: 500px;
-  height: auto; }
+  width: 400px;
+  height: auto;
+  padding-left: 0%; }
 
 @media only screen and (max-width: 399px) {
   .drippinStore {
     font-size: 20px; }
   .sobreNosotros1 {
     width: 250px;
-    height: auto; }
-  .sobreNosotros {
-    text-align: center; } }
+    height: auto; } }
 
 body {
   overflow-x: hidden; }
