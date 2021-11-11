@@ -3,7 +3,7 @@
 .productos__card{
     width: 100%;
     padding: 1.3rem;
-    @include flexboxProductos (row, wrap, center);
+    text-align: center;
 
     .selectTalle{
         width: auto;
@@ -42,6 +42,11 @@
 .policia{
     background-color: #2770F5;
     color: map-get($map: $colores-base, $key: negro);
+    text-align: center;
+}
+
+.productos__card__info{
+    text-align: center;
 }
 
 

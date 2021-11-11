@@ -2,10 +2,7 @@
 .productos__card {
   width: 100%;
   padding: 1.3rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center; }
+  text-align: center; }
   .productos__card .selectTalle {
     width: auto; }
   .productos__card .productos__card__info {
@@ -32,7 +29,11 @@
 
 .policia {
   background-color: #2770F5;
-  color: #000; }
+  color: #000;
+  text-align: center; }
+
+.productos__card__info {
+  text-align: center; }
 
 @media (min-width: 1024px) {
   .productos__card {
@@ -73,7 +74,7 @@
   text-align: right; }
 
 .sobreNosotros__img {
-  width: 400px;
+  width: 500px;
   height: auto;
   padding-left: 0%; }
 
