@@ -1,0 +1,112 @@
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .drippinStore{
+        font-size: 40px;
+        text-align: center;
+    }
+    #menuPrincipal{
+        font-size: 20px;
+        justify-content: center;
+    }
+    .headerIndex{
+        border: solid 5px map-get($map: $colores-base, $key: azul);
+        background-color: map-get($map: $colores-base, $key: negro);
+    }
+    .gifDrippin{
+        display: none;
+    }
+    .gifMobile{ 
+        display: block;
+        width: 60%;
+        height: 95%;
+        padding: 0% auto;
+        margin-top: 2rem;
+        margin-left: 20%;
+    }
+    main{
+        font-size: 20px;
+    }
+    .sobreNosotros{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .headerIndex{
+        border: none;
+        overflow-x: hidden;
+
+    }
+    .drippinStore{
+        font-size: 23px;
+        text-align:start;
+    }
+    .gifDrippin{
+        display: none;
+    }
+    .gifMobile{ 
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 0% auto;
+        margin: 0% auto;
+    }
+    header{
+        background-color: map-get($map: $colores-base, $key: blanco);
+        border: solid 3px map-get($map: $colores-base, $key: azul);
+    }
+    main p{
+        text-align:center;
+        font-size: 16px;
+    }
+    footer{
+        overflow-x: hidden;
+    }
+    .fa-instagram{
+        font-size: 1.7rem;
+        margin-bottom: 1.8rem;
+    }
+    .firma{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px){
+    .productos__card{
+       padding: 1.3rem;
+       @include flexbox (row, wrap, center, center);
+       .productos__card__info{
+           flex-grow: 1;
+           text-align: center;
+       }
+       img{
+           width: 250px;
+           height: auto;
+           border-radius: 3%;
+           justify-self: center;
+       }
+    }
+   .insegurx .terapia{
+       flex-direction: row-reverse;
+    }
+   .productos__card__info{
+       flex-grow: 1;    
+    }
+   .insegurx{
+       flex-direction: row-reverse;
+    }
+   .policia{
+       flex-direction: row-reverse;
+    }
+}

@@ -18,6 +18,16 @@ $color-titulos: #B366CC;
     align-items: $align;
 }
 
+@mixin cuadroTexto ($margin, $padding){
+    text-align: center;
+    background-color: $color-secundario;
+    color: map-get($map: $colores-base, $key:blanco);
+    border: solid 3px $color-principal;
+    margin: $margin;
+    padding: $padding;
+    
+}
+
 $colores-base:(
     negro: #000,
     blanco: #FFF,

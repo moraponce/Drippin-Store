@@ -8,7 +8,7 @@ body{
         background-color: map-get($map: $colores-base, $key: negro);
         color: $color-titulos;
         text-align: center;
-        border: 5px solid #000;
+        border: 5px solid $color-principal;
         padding: 10px;
         position: sticky;
         top:0px
@@ -18,7 +18,12 @@ body{
         display: block;
         padding: 3%;
     }
-
+    h1{
+        color: $color-titulos;
+        text-decoration: underline;
+        text-align: center;
+        letter-spacing: 3;
+    }
 }
 
 header{
@@ -28,12 +33,6 @@ header{
         font-size: 35px;
         font-style: italic;
         letter-spacing: 3px;
-    }
-    h1{
-        color: $color-titulos;
-        text-decoration: underline;
-        text-align: center;
-        letter-spacing: 3;
     }
     #menuPrincipal{
         list-style-type: none;

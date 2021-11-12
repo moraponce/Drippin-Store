@@ -1,0 +1,18 @@
+.gifDrippin{
+    width: 100%;
+    height: 100vh;
+}
+
+.gifMobile{
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.fraseSlogan{
+    border: 2px solid $color-principal;
+    background-color: map-get($map: $colores-base, $key: azul );
+    color: map-get($map: $colores-base, $key: blanco);
+    margin: 10px 20% 0;
+    text-align: center;
+}

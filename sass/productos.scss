@@ -49,36 +49,6 @@
     text-align: center;
 }
 
-
-@media (min-width: 1024px){
-     .productos__card{
-        padding: 1.3rem;
-        @include flexbox (row, wrap, center, center);
-        .productos__card__info{
-            flex-grow: 1;
-            text-align: center;
-        }
-        img{
-            width: 250px;
-            height: auto;
-            border-radius: 3%;
-            justify-self: center;
-        }
-    }
-    .insegurx .terapia{
-        flex-direction: row-reverse;
-    }
-
-    .productos__card__info{
-        flex-grow: 1;
-        
-    }
-    .insegurx{
-        flex-direction: row-reverse;
-    }
-    .policia{
-        flex-direction: row-reverse;
-    }
-
-
+.seccionProductos{
+    display: none;
 }
