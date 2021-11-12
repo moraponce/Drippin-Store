@@ -102,4 +102,20 @@ footer{
     }
 }
 
-/* FIN ESTILO GENERAL */
+/* error 404 */
+
+.error404{
+    background-color: map-get($map: $colores-base, $key: negro);
+    font-family: 'Inconsolata', monospace;
+}
+#error404__h1{
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
+    font-size: 3.6rem;
+    margin: 12rem;
+    color: #6900A2;
+}
+.error404__inicio{
+    color: #17C418;
+    font-size: 1.1rem;
+}

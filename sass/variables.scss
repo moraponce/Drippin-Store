@@ -18,7 +18,7 @@ $color-titulos: #B366CC;
     align-items: $align;
 }
 
-@mixin cuadroTexto ($margin, $padding){
+@mixin cuadro-texto ($margin, $padding){
     text-align: center;
     background-color: $color-secundario;
     color: map-get($map: $colores-base, $key:blanco);

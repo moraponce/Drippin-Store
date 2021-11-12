@@ -40,12 +40,12 @@
   display: none; }
 
 .sobreNosotros__p {
+  text-align: center;
   background-color: #09141B;
   color: #FFF;
-  border: solid 2px #1D0A1F;
+  border: solid 3px #1D0A1F;
   margin: 0.5rem;
-  padding: 0.5rem;
-  text-align: center; }
+  padding: 0.5rem; }
 
 .sobreNosotros__p2 {
   padding: 10px;
@@ -56,13 +56,6 @@
   width: 500px;
   height: auto;
   padding-left: 0%; }
-
-@media only screen and (max-width: 399px) {
-  .drippinStore {
-    font-size: 20px; }
-  .sobreNosotros1 {
-    width: 250px;
-    height: auto; } }
 
 /* ESTILO GENERAL */
 body {
@@ -155,7 +148,22 @@ footer {
   footer .firma:hover {
     color: #FFF; }
 
-/* FIN ESTILO GENERAL */
+/* error 404 */
+.error404 {
+  background-color: #000;
+  font-family: 'Inconsolata', monospace; }
+
+#error404__h1 {
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none;
+  font-size: 3.6rem;
+  margin: 12rem;
+  color: #6900A2; }
+
+.error404__inicio {
+  color: #17C418;
+  font-size: 1.1rem; }
+
 .gifDrippin {
   width: 100%;
   height: 100vh; }
@@ -258,3 +266,26 @@ footer {
     flex-direction: row-reverse; }
   .policia {
     flex-direction: row-reverse; } }
+
+@media only screen and (max-width: 399px) {
+  .drippinStore {
+    font-size: 20px; }
+  .sobreNosotros1 {
+    width: 250px;
+    height: auto; } }
+
+.carouselGaleria {
+  width: 500px;
+  height: auto; }
+
+.carousel {
+  z-index: -1; }
+
+.formularioContacto {
+  background-color: #09141B; }
+
+.formularioContacto h3 {
+  text-align: left; }
+
+#navbarBurguer {
+  background-color: #000; }

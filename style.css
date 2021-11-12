@@ -225,14 +225,14 @@ main{
 }
 
 
-sobre nosotros*/
+sobre nosotros
 
 .sobreNosotros1{
     width: 500px;
     height: auto;
 }
 
-/*GALERIA*/
+GALERIA
 .carouselGaleria{
     width: 500px;
     height: auto;
@@ -242,7 +242,7 @@ sobre nosotros*/
     z-index: -1;
 }
 
-/*CONTACTO*/
+CONTACTO
 
 .formularioContacto{
     background-color: #09141B;
@@ -257,7 +257,7 @@ sobre nosotros*/
     background-color: black;
 }
 
-
+/*
 @media only screen and (max-width: 399px){
     .drippinStore{
         font-size: 20px;
@@ -268,7 +268,7 @@ sobre nosotros*/
     }
 }
 
-/* error 404 */
+ error 404 
 
 .error404{
     background-color: #000;
@@ -287,4 +287,4 @@ sobre nosotros*/
     color: #17C418;
     font-size: 1.1rem;
 }
-
+*/

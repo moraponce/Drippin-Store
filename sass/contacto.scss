@@ -1,0 +1,9 @@
+.formularioContacto{
+    background-color: map-get($map: $colores-base, $key:azul);
+}
+.formularioContacto h3{
+    text-align:left
+}
+#navbarBurguer{
+    background-color: map-get($map: $colores-base, $key:negro);
+}
