@@ -1,0 +1,106 @@
+/* ESTILO GENERAL */
+
+body{
+    overflow-x: hidden;
+    background-color: map-get($map: $colores-base, $key: negro);
+    color: map-get($map: $colores-base, $key: blanco);
+    header{
+        background-color: map-get($map: $colores-base, $key: negro);
+        color: $color-titulos;
+        text-align: center;
+        border: 5px solid #000;
+        padding: 10px;
+        position: sticky;
+        top:0px
+    }
+    main{
+        text-align: center;
+        display: block;
+        padding: 3%;
+    }
+
+}
+
+header{
+    .drippinStore{
+        font-family: 'merriweather', serif;
+        text-align: left;
+        font-size: 35px;
+        font-style: italic;
+        letter-spacing: 3px;
+    }
+    h1{
+        color: $color-titulos;
+        text-decoration: underline;
+        text-align: center;
+        letter-spacing: 3;
+    }
+    #menuPrincipal{
+        list-style-type: none;
+    }
+    #linkActive{
+        color: #787A91;
+    }
+    #menuPrincipal a{
+        text-decoration: none;
+    }
+    #menuPrincipal a:hover{
+        transform: scaleX(1.1);
+        color: #B366CC !important;
+    }
+    .productos{
+        position: relative;
+    }
+    .subMenuProductos{
+        display: none;
+        position: absolute;
+        top: px;
+        left: 0px;
+        list-style: none;
+        margin: 1px;
+        padding: 15px 50px;
+        border: 4px solid $color-principal;
+        background-color: map-get($map: $colores-base, $key: negro);
+        color: map-get($map: $colores-base, $key: blanco );
+    }
+    .subMenuProductos a{
+        text-decoration: none;
+        color: map-get($map: $colores-base, $key: blanco );
+    }
+    .productos:hover .subMenuProductos { display: block; }
+    .subMenuProductos li{
+        display: block;
+    }
+    
+}
+
+footer{
+    overflow: hidden;
+    section{
+        background-color: $color-secundario;
+        padding: 2rem;
+    }
+    .fa-instagram{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,29,52,1) 20%, rgba(121,9,94,1) 74%, rgba(15,47,62,1) 100%);
+        color: map-get($map: $colores-base, $key: blanco);
+        position: fixed;
+        bottom: 0%;
+        border-radius: 48%;
+    }
+    .fa-instagram:hover{
+        transform:scale(1.1);
+    }
+    .firma{
+        color: map-get($map: $colores-base, $key: gris);
+        text-align: right;
+    }
+    .firma:hover{
+        color: map-get($map: $colores-base, $key: blanco);
+    }
+}
+
+/* FIN ESTILO GENERAL */
