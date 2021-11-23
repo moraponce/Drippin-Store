@@ -5,6 +5,12 @@ body{
     background-color: map-get($map: $colores-base, $key: negro);
     color: map-get($map: $colores-base, $key: blanco);
     header{
+        #logo{
+            width: 9rem;
+            height: auto;
+            pointer-events: none;
+        }
+
         background-color: map-get($map: $colores-base, $key: negro);
         color: $color-titulos;
         text-align: center;
