@@ -148,7 +148,8 @@ footer {
     transform: scale(1.1); }
   footer .firma {
     color: #787A91;
-    text-align: right; }
+    text-align: right;
+    text-decoration: none; }
   footer .firma:hover {
     color: #FFF; }
 

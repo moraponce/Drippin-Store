@@ -102,6 +102,7 @@ footer{
     .firma{
         color: map-get($map: $colores-base, $key: gris);
         text-align: right;
+        text-decoration: none;
     }
     .firma:hover{
         color: map-get($map: $colores-base, $key: blanco);
