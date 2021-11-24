@@ -13,6 +13,8 @@
     transition: transform 0.3s; }
   .productos img:hover {
     transform: scale(1.1); }
+  .productos .productos__h1 {
+    display: none; }
 
 @media (max-width: 600px) {
   .productos img {
@@ -21,45 +23,28 @@
     margin-left: auto;
     margin-right: auto; } }
 
-.productos__card {
-  width: 100%;
-  padding: 1.3rem;
+.submenuProductos {
+  background-color: #1D0A1F;
   text-align: center;
-  font-family: 'Oswald', sans-serif; }
-  .productos__card .selectTalle {
-    width: auto; }
-  .productos__card .productos__card__info {
-    text-align: center; }
-    .productos__card .productos__card__info div {
-      display: flex;
-      justify-content: center; }
-  .productos__card img {
-    width: 350px;
-    height: auto;
-    border-radius: 3%; }
-
-.empty {
-  background-color: #C400FA;
-  color: #FFF; }
-
-.insegurx {
-  background-color: #FFE100;
-  color: #000; }
-
-.terapia {
-  background-color: #D40068;
-  color: #FFF; }
-
-.policia {
-  background-color: #2770F5;
-  color: #000;
-  text-align: center; }
-
-.productos__card__info {
-  text-align: center; }
-
-.productos__h1 {
-  display: none; }
+  position: relative; }
+  .submenuProductos a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive; }
+  .submenuProductos a:hover {
+    color: #B366CC; }
+  .submenuProductos ul {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0%; }
+    .submenuProductos ul li {
+      text-decoration: none;
+      list-style-type: none;
+      display: inline; }
+  .submenuProductos .linkActiveProductos {
+    color: #787A91; }
 
 .sobreNosotros__p {
   text-align: center;
@@ -276,24 +261,24 @@ footer {
     font-size: 12px; } }
 
 @media (min-width: 1024px) {
-  .productos__card {
+  .remeras__card {
     padding: 1.3rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center; }
-    .productos__card .productos__card__info {
+    .remeras__card .remeras__card__info {
       flex-grow: 1;
       text-align: center; }
-    .productos__card img {
+    .remeras__card img {
       width: 250px;
       height: auto;
       border-radius: 3%;
       justify-self: center; }
   .insegurx .terapia {
     flex-direction: row-reverse; }
-  .productos__card__info {
+  .remeras__card__info {
     flex-grow: 1; }
   .insegurx {
     flex-direction: row-reverse; }
@@ -369,3 +354,50 @@ footer {
 @media only screen and (max-width: 425px) {
   .seccionContacto {
     width: 100%; } }
+
+.mainRemeras {
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%; }
+
+.remeras__card {
+  width: 100%;
+  padding: 1.3rem;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
+  .remeras__card .selectTalle {
+    width: auto; }
+  .remeras__card .remeras__card__info {
+    text-align: center; }
+    .remeras__card .remeras__card__info div {
+      display: flex;
+      justify-content: center; }
+  .remeras__card img {
+    width: 350px;
+    height: auto;
+    border-radius: 3%; }
+
+.empty {
+  background-color: #C400FA;
+  color: #FFF; }
+
+.insegurx {
+  background-color: #FFE100;
+  color: #000; }
+
+.terapia {
+  background-color: #D40068;
+  color: #FFF; }
+
+.policia {
+  background-color: #2770F5;
+  color: #000;
+  text-align: center; }
+
+.remeras__card__info {
+  text-align: center; }
+
+.remeras__h1 {
+  display: none; }

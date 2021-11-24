@@ -15,6 +15,9 @@
     img:hover{
         transform: scale(1.1);
     }
+    .productos__h1{
+        display: none;
+    }
 }
 
 @media (max-width: 600px){
@@ -29,62 +32,35 @@
 }
 
 
-
-
-
-
-
-.productos__card{
-    width: 100%;
-    padding: 1.3rem;
+.submenuProductos{
+    background-color: $color-principal;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
-
-
-    .selectTalle{
-        width: auto;
+    position: relative;
+    a{
+        text-decoration: none;
+        color: map-get($map: $colores-base, $key:blanco);
+        font-family: 'Bebas Neue', cursive;
     }
-
-    .productos__card__info{
+    a:hover{
+        color: $color-titulos;
+    }
+    ul{
         text-align: center;
-        div {
-            display: flex;
-            justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 0%;
+        li{
+            text-decoration: none;
+            list-style-type: none;
+            display: inline;
         }
     }
-
-    img{
-        width: 350px;
-        height: auto;
-        border-radius: 3%;
+    .linkActiveProductos{
+        color: map-get($map: $colores-base, $key: gris);
     }
+
+
 }
 
-.empty{
-    background-color: #C400FA;
-    color: map-get($map: $colores-base, $key: blanco);
-}
 
-.insegurx{
-    background-color:#FFE100;
-    color: map-get($map: $colores-base, $key: negro);
-}
-
-.terapia{
-    background-color: #D40068;
-    color: map-get($map: $colores-base, $key: blanco);
-}
-
-.policia{
-    background-color: #2770F5;
-    color: map-get($map: $colores-base, $key: negro);
-    text-align: center;
-}
-
-.productos__card__info{
-    text-align: center;
-}
-
-.productos__h1{
-    display: none;
-}

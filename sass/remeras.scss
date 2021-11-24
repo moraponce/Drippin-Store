@@ -1,0 +1,62 @@
+
+.mainRemeras{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+.remeras__card{
+    width: 100%;
+    padding: 1.3rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+
+    .selectTalle{
+        width: auto;
+    }
+
+    .remeras__card__info{
+        text-align: center;
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    img{
+        width: 350px;
+        height: auto;
+        border-radius: 3%;
+    }
+}
+
+.empty{
+    background-color: #C400FA;
+    color: map-get($map: $colores-base, $key: blanco);
+}
+
+.insegurx{
+    background-color:#FFE100;
+    color: map-get($map: $colores-base, $key: negro);
+}
+
+.terapia{
+    background-color: #D40068;
+    color: map-get($map: $colores-base, $key: blanco);
+}
+
+.policia{
+    background-color: #2770F5;
+    color: map-get($map: $colores-base, $key: negro);
+    text-align: center;
+}
+
+.remeras__card__info{
+    text-align: center;
+}
+
+.remeras__h1{
+    display: none;
+}
