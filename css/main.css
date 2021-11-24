@@ -280,11 +280,20 @@ footer {
     height: auto; } }
 
 .carouselGaleria {
-  width: 500px;
-  height: auto; }
+  width: 50%;
+  height: auto;
+  justify-self: center; }
 
 .carousel {
   z-index: -1; }
+
+.contenedorCarousel {
+  width: 100vw;
+  position: relative; }
+  .contenedorCarousel .contenedorCarousel__img {
+    width: 40%;
+    display: flex;
+    justify-content: center; }
 
 .formularioContacto {
   background-color: #09141B; }
