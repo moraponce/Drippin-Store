@@ -1,6 +1,26 @@
 /* PRODUCTOS */
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:ital,wght@0,900;1,900&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Bebas+Neue&family=Oswald:wght@500&display=swap");
+.productos {
+  overflow: hidden;
+  z-index: 0; }
+  .productos img {
+    width: 50%;
+    height: auto;
+    border-radius: 0.3rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: transform 0.3s; }
+  .productos img:hover {
+    transform: scale(1.1); }
+
+@media (max-width: 600px) {
+  .productos img {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto; } }
+
 .productos__card {
   width: 100%;
   padding: 1.3rem;
@@ -38,7 +58,7 @@
 .productos__card__info {
   text-align: center; }
 
-.seccionProductos {
+.productos__h1 {
   display: none; }
 
 .sobreNosotros__p {
@@ -99,7 +119,8 @@ body {
 header {
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  z-index: 1; }
   header #menuPrincipal {
     list-style-type: none; }
   header #linkActive {
@@ -344,3 +365,7 @@ footer {
     .seccionContacto form textarea {
       height: 8rem;
       resize: none; }
+
+@media only screen and (max-width: 425px) {
+  .seccionContacto {
+    width: 100%; } }

@@ -1,5 +1,39 @@
 
 /* PRODUCTOS */
+.productos{
+    overflow: hidden;
+    z-index: 0;
+    img{
+        width: 50%;
+        height: auto;
+        border-radius: 0.3rem;
+        margin: 2rem;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 600px){
+    .productos{
+        img{
+            width: 90%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }    
+}
+
+
+
+
+
+
+
 .productos__card{
     width: 100%;
     padding: 1.3rem;
@@ -51,6 +85,6 @@
     text-align: center;
 }
 
-.seccionProductos{
+.productos__h1{
     display: none;
 }
