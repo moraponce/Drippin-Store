@@ -4,7 +4,8 @@
 .productos__card {
   width: 100%;
   padding: 1.3rem;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
   .productos__card .selectTalle {
     width: auto; }
   .productos__card .productos__card__info {
@@ -63,7 +64,8 @@
   width: 500px;
   height: auto;
   padding-left: 0%;
-  border-radius: 0.2rem; }
+  border-radius: 0.2rem;
+  margin: 1rem auto; }
 
 /* ESTILO GENERAL */
 body {
@@ -94,50 +96,39 @@ body {
     text-align: center;
     letter-spacing: 0.3rem; }
 
-header .drippinStore {
-  font-family: 'merriweather', serif;
-  text-align: left;
-  font-size: 35px;
-  font-style: italic;
-  letter-spacing: 3px; }
-
-header #menuPrincipal {
-  list-style-type: none; }
-
-header #linkActive {
-  color: #787A91; }
-
-header #menuPrincipal a {
-  text-decoration: none; }
-
-header #menuPrincipal a:hover {
-  transform: scaleX(1.1);
-  color: #B366CC !important; }
-
-header .productos {
-  position: relative; }
-
-header .subMenuProductos {
-  display: none;
-  position: absolute;
-  top: px;
-  left: 0px;
-  list-style: none;
-  margin: 1px;
-  padding: 15px 50px;
-  border: 4px solid #1D0A1F;
-  background-color: #000;
-  color: #FFF; }
-
-header .subMenuProductos a {
-  text-decoration: none;
-  color: #FFF; }
-
-header .productos:hover .subMenuProductos {
-  display: block; }
-
-header .subMenuProductos li {
-  display: block; }
+header {
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px; }
+  header #menuPrincipal {
+    list-style-type: none; }
+  header #linkActive {
+    color: #787A91; }
+  header #menuPrincipal a {
+    text-decoration: none; }
+  header #menuPrincipal a:hover {
+    transform: scaleX(1.1);
+    color: #B366CC !important; }
+  header .productos {
+    position: relative; }
+  header .subMenuProductos {
+    display: none;
+    position: absolute;
+    top: px;
+    left: 0px;
+    list-style: none;
+    margin: 1px;
+    padding: 15px 50px;
+    border: 4px solid #1D0A1F;
+    background-color: #000;
+    color: #FFF; }
+  header .subMenuProductos a {
+    text-decoration: none;
+    color: #FFF; }
+  header .productos:hover .subMenuProductos {
+    display: block; }
+  header .subMenuProductos li {
+    display: block; }
 
 footer {
   overflow: hidden; }
@@ -159,7 +150,9 @@ footer {
   footer .firma {
     color: #787A91;
     text-align: right;
-    text-decoration: none; }
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px; }
   footer .firma:hover {
     color: #FFF; }
 
@@ -193,7 +186,11 @@ footer {
   background-color: #09141B;
   color: #FFF;
   margin: 10px 20% 0;
-  text-align: center; }
+  padding-top: 1rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px; }
 
 @media only screen and (max-width: 768px) {
   body {

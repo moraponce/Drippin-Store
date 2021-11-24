@@ -14,5 +14,9 @@
     background-color: map-get($map: $colores-base, $key: azul );
     color: map-get($map: $colores-base, $key: blanco);
     margin: 10px 20% 0;
+    padding-top: 1rem;
+    border-radius: 0.3rem;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
 }
