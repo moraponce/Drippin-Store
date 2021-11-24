@@ -26,9 +26,11 @@ body{
     }
     h1{
         color: $color-titulos;
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 1rem;
         text-decoration: underline;
         text-align: center;
-        letter-spacing: 3;
+        letter-spacing: 0.3rem;
     }
 }
 

@@ -2,7 +2,6 @@ $color-principal: #1D0A1F;
 $color-secundario: #09141B;
 $color-titulos: #B366CC;
 
-
 @mixin flexbox ($direction, $wrap, $justify, $align){
     display: flex;
     flex-direction: $direction;
@@ -32,6 +31,6 @@ $colores-base:(
     negro: #000,
     blanco: #FFF,
     gris: #787A91,
-    azul: #09141B
+    azul: #09141B,
 );
 

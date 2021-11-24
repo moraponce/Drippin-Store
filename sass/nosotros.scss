@@ -3,6 +3,14 @@
     @include cuadro-texto (0.5rem , 0.5rem);
 }
 
+.sobreNosotros{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    p{
+        border-radius: 0.2rem;
+    }
+}
+
 .sobreNosotros__p2{
     padding: 10px;
     margin: 0%;
@@ -13,4 +21,5 @@
     width: 500px;
     height: auto;
     padding-left: 0%;
+    border-radius: 0.2rem;
 } 
