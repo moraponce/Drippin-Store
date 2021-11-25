@@ -55,27 +55,6 @@ header{
     .productos{
         position: relative;
     }
-    /* .subMenuProductos{
-        display: none;
-        position: absolute;
-        top: px;
-        left: 0px;
-        list-style: none;
-        margin: 1px;
-        padding: 15px 50px;
-        border: 4px solid $color-principal;
-        background-color: map-get($map: $colores-base, $key: negro);
-        color: map-get($map: $colores-base, $key: blanco );
-    }
-    .subMenuProductos a{
-        text-decoration: none;
-        color: map-get($map: $colores-base, $key: blanco );
-    }
-    .productos:hover .subMenuProductos { display: block; }
-    .subMenuProductos li{
-        display: block;
-    } */
-    
 }
 
 footer{
