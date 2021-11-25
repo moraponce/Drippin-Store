@@ -105,7 +105,27 @@ header {
   font-weight: 300;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1px;
-  z-index: 1; }
+  z-index: 1;
+  /* .subMenuProductos{
+        display: none;
+        position: absolute;
+        top: px;
+        left: 0px;
+        list-style: none;
+        margin: 1px;
+        padding: 15px 50px;
+        border: 4px solid $color-principal;
+        background-color: map-get($map: $colores-base, $key: negro);
+        color: map-get($map: $colores-base, $key: blanco );
+    }
+    .subMenuProductos a{
+        text-decoration: none;
+        color: map-get($map: $colores-base, $key: blanco );
+    }
+    .productos:hover .subMenuProductos { display: block; }
+    .subMenuProductos li{
+        display: block;
+    } */ }
   header #menuPrincipal {
     list-style-type: none; }
   header #linkActive {
@@ -117,24 +137,6 @@ header {
     color: #B366CC !important; }
   header .productos {
     position: relative; }
-  header .subMenuProductos {
-    display: none;
-    position: absolute;
-    top: px;
-    left: 0px;
-    list-style: none;
-    margin: 1px;
-    padding: 15px 50px;
-    border: 4px solid #1D0A1F;
-    background-color: #000;
-    color: #FFF; }
-  header .subMenuProductos a {
-    text-decoration: none;
-    color: #FFF; }
-  header .productos:hover .subMenuProductos {
-    display: block; }
-  header .subMenuProductos li {
-    display: block; }
 
 footer {
   overflow: hidden; }
@@ -200,6 +202,11 @@ footer {
     justify-content: space-between;
     align-items: baseline;
     padding: 0%; } }
+
+.noDisponible {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.2px;
+  margin: 2rem; }
 
 .gifDrippin {
   width: 100%;

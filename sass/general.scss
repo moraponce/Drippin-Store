@@ -55,7 +55,7 @@ header{
     .productos{
         position: relative;
     }
-    .subMenuProductos{
+    /* .subMenuProductos{
         display: none;
         position: absolute;
         top: px;
@@ -74,7 +74,7 @@ header{
     .productos:hover .subMenuProductos { display: block; }
     .subMenuProductos li{
         display: block;
-    }
+    } */
     
 }
 
@@ -158,4 +158,10 @@ footer{
         align-items: baseline;
         padding: 0%;
     }
+}
+
+.noDisponible{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.2px;
+    margin: 2rem;
 }
