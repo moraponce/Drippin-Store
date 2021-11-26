@@ -321,6 +321,9 @@ footer {
 .carousel-control-prev, .carousel-control-next {
   z-index: 0; }
 
+.carousel-indicators {
+  z-index: 1 !important; }
+
 .seccionContacto {
   width: 70%;
   margin: 0.3rem auto;

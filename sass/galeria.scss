@@ -18,3 +18,7 @@ $carousel-control-transition: 2s ease;
 .carousel-control-prev, .carousel-control-next{
     z-index: 0;
 }
+
+.carousel-indicators{
+    z-index: 1 !important;
+}
