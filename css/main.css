@@ -304,7 +304,9 @@ footer {
 
 @media only screen and (max-width: 420px) {
   .seccionGaleriaMobile {
-    height: calc(100vh - 270px); } }
+    height: calc(100vh - 270px); }
+  .carousel-inner {
+    margin: 1rem auto; } }
 
 .carouselGaleria {
   width: 50%;
