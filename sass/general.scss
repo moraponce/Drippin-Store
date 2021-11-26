@@ -28,9 +28,12 @@ body{
         color: $color-titulos;
         font-family: 'Bebas Neue', cursive;
         margin-top: 1rem;
-        text-decoration: underline;
+        text-decoration: none;
         text-align: center;
         letter-spacing: 0.3rem;
+    }
+    .h1Escondido{
+        display: none;
     }
 }
 

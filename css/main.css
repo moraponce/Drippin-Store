@@ -13,8 +13,6 @@
     transition: transform 0.3s; }
   .productos img:hover {
     transform: scale(1.1); }
-  .productos .productos__h1 {
-    display: none; }
 
 @media (max-width: 600px) {
   .productos img {
@@ -100,9 +98,11 @@ body {
     color: #B366CC;
     font-family: 'Bebas Neue', cursive;
     margin-top: 1rem;
-    text-decoration: underline;
+    text-decoration: none;
     text-align: center;
     letter-spacing: 0.3rem; }
+  body .h1Escondido {
+    display: none; }
 
 header {
   font-weight: 300;
