@@ -73,6 +73,9 @@
   border-radius: 0.2rem;
   margin: 1rem auto; }
 
+.nosotrosPUltimo {
+  margin-bottom: 2rem; }
+
 /* ESTILO GENERAL */
 body {
   overflow-x: hidden;
@@ -204,7 +207,8 @@ footer {
   border: 2px solid #1D0A1F;
   background-color: #09141B;
   color: #FFF;
-  margin: 10px 20% 0;
+  margin: 2rem auto;
+  width: 60%;
   padding-top: 1rem;
   border-radius: 0.3rem;
   text-align: center;
