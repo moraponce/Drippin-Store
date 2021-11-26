@@ -116,3 +116,9 @@
         height: auto;
     }
 }
+
+@media only screen and (max-width:420px){
+    .seccionGaleriaMobile{
+        height: calc(100vh - 270px);
+    }
+}

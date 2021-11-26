@@ -302,6 +302,10 @@ footer {
     width: 250px;
     height: auto; } }
 
+@media only screen and (max-width: 420px) {
+  .seccionGaleriaMobile {
+    height: calc(100vh - 270px); } }
+
 .carouselGaleria {
   width: 50%;
   height: auto;
@@ -317,15 +321,6 @@ footer {
 .carousel-control-prev, .carousel-control-next {
   z-index: 0; }
 
-/* .formularioContacto{
-    background-color: map-get($map: $colores-base, $key:azul);
-}
-.formularioContacto h3{
-    text-align:left
-}
-#navbarBurguer{
-    background-color: map-get($map: $colores-base, $key:negro);
-} */
 .seccionContacto {
   width: 70%;
   margin: 0.3rem auto;
